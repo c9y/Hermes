@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/PaperSpigot-1.8.8-R0.1-SNAPSHOT-latest (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Vault.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
