@@ -58,15 +58,18 @@ public class SetRankCommand implements CommandExecutor {
                     playerrank = Rank.PARTNER;
                 }
                 else if (arguments[0].equalsIgnoreCase("trialmod") || (arguments[0].equalsIgnoreCase("tmod") || (arguments[0].equalsIgnoreCase("trial-mod")))) {
-                    playerrank = Rank.TRAINEE;
+                    playerrank = Rank.TMOD;
                 }
                 else if (arguments[0].equalsIgnoreCase("mod") || (arguments[0].equalsIgnoreCase("moderator"))) {
                     playerrank = Rank.MOD;
                 }
+                else if (arguments[0].equalsIgnoreCase("srmod") || (arguments[0].equalsIgnoreCase("srmoderator"))) {
+                    playerrank = Rank.SRMOD;
+                }
                 else if (arguments[0].equalsIgnoreCase("admin")) {
                     playerrank = Rank.ADMIN;
                 }
-                if (arguments[0].equalsIgnoreCase( "senioradmin")) {
+                if (arguments[0].equalsIgnoreCase( "platadmin")) {
                     playerrank = Rank.PLATADMIN;
                 }
                 if (arguments[0].equalsIgnoreCase( "manager")) {
@@ -142,10 +145,13 @@ public class SetRankCommand implements CommandExecutor {
                 playerrank = Rank.PARTNER;
             }
             else if (arguments[0].equalsIgnoreCase("trialmod") || (arguments[0].equalsIgnoreCase("tmod") || (arguments[0].equalsIgnoreCase("trial-mod")))) {
-                playerrank = Rank.TRAINEE;
+                playerrank = Rank.TMOD;
             }
             else if (arguments[0].equalsIgnoreCase("mod") || (arguments[0].equalsIgnoreCase("moderator"))) {
                 playerrank = Rank.MOD;
+            }
+            else if (arguments[0].equalsIgnoreCase("srmod") || (arguments[0].equalsIgnoreCase("srmoderator"))) {
+                playerrank = Rank.SRMOD;
             }
             else if (arguments[0].equalsIgnoreCase("admin")) {
                 playerrank = Rank.ADMIN;

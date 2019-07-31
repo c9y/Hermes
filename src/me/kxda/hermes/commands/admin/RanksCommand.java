@@ -24,13 +24,14 @@ public class RanksCommand implements CommandExecutor {
                 player.sendMessage(Rank.MANAGER.getInfo());
                 player.sendMessage(Rank.PLATADMIN.getInfo());
                 player.sendMessage(Rank.ADMIN.getInfo());
-                player.sendMessage(Rank.SENIORMOD.getInfo());
+                player.sendMessage(Rank.SRMOD.getInfo());
                 player.sendMessage(Rank.MOD.getInfo());
-                player.sendMessage(Rank.TRAINEE.getInfo());
+                player.sendMessage(Rank.TMOD.getInfo());
+                player.sendMessage(Rank.BUILDER.getInfo());
+                player.sendMessage("");
                 player.sendMessage(Rank.PARTNER.getInfo());
                 player.sendMessage(Rank.FAMOUS.getInfo());
                 player.sendMessage(Rank.YOUTUBE.getInfo());
-                player.sendMessage(Rank.BUILDER.getInfo());
                 player.sendMessage(Rank.HERO.getInfo());
                 player.sendMessage(Rank.MVP.getInfo());
                 player.sendMessage(Rank.VIP.getInfo());

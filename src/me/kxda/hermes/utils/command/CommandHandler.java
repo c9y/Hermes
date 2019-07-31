@@ -4,7 +4,7 @@ import me.kxda.hermes.utils.command.adapter.TypeAdapter;
 import me.kxda.hermes.utils.command.annotation.CommandInfo;
 import org.bukkit.command.CommandMap;
 import org.bukkit.plugin.java.JavaPlugin;
-import me.kxda.hermes.utils.ReflectionUtil;
+import me.kxda.hermes.utils       .ReflectionUtil;
 
 import java.util.HashMap;
 import java.util.HashSet;

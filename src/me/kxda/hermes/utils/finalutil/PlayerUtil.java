@@ -21,7 +21,7 @@ public final class PlayerUtil
     }
 
     public static void messageStaff(final String message) {
-        messageStaff(message, Rank.TRAINEE);
+        messageStaff(message, Rank.TMOD);
     }
 
     public static void messageStaff(final String message, final Rank rank) {

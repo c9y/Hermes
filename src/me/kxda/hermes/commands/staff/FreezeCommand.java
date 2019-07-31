@@ -24,7 +24,7 @@ public class FreezeCommand implements CommandExecutor {
     public boolean onCommand(final CommandSender sender, final Command command, final String s, final String[] args) {
         Player player = (Player)sender;
         Profile profile = new Profile(player.getUniqueId());
-        if (!profile.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+        if (!profile.getRank().isAboveOrEqual(Rank.TMOD)) {
             Messager.sendMessage(sender, CC.RED + "You don't have permission to use this command." );
             return true;
         }

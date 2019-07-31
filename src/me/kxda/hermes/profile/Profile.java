@@ -62,7 +62,7 @@ public class Profile {
             attachment.setPermission ("BungeeStaffChat.Use", true);
             attachment.setPermission ("siri.admin", true);
         }
-        else if (this.hasRank(Rank.TRAINEE)) {
+        else if (this.hasRank(Rank.TMOD)) {
             attachment.setPermission("bukkit.command.clear", true);
             attachment.setPermission("bukkit.command.effect", true);
             attachment.setPermission("bukkit.command.enchant", true);

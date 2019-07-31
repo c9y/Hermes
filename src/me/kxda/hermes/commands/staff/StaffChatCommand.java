@@ -20,7 +20,7 @@ public class StaffChatCommand implements CommandExecutor
         }
         final Player player = (Player)sender;
         Profile profile = new Profile(player.getUniqueId());
-        if (!profile.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+        if (!profile.getRank().isAboveOrEqual(Rank.TMOD)) {
             player.sendMessage(ColorText.translate(StringUtil.NO_PERMISSION));
             return true;
         }

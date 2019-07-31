@@ -21,10 +21,10 @@ public class PlayerEvents implements Listener {
         event.setJoinMessage(null);
         Player player = event.getPlayer();
         Profile profile = new Profile(player.getUniqueId());
-        if (profile.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+        if (profile.getRank().isAboveOrEqual(Rank.TMOD)) {
             for (Player p : Bukkit.getOnlinePlayers()) {
                 Profile profile2 = new Profile(p.getUniqueId());
-                if (profile2.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+                if (profile2.getRank().isAboveOrEqual(Rank.TMOD)) {
                     p.sendMessage(CC.AQUA + "[S] " + profile.getRank().getColor() + player.getName() + CC.D_AQUA + " connected to the NA-Practice.");
                 }
             }
@@ -36,10 +36,10 @@ public class PlayerEvents implements Listener {
         event.setQuitMessage(null);
         Player player = event.getPlayer();
         Profile profile = new Profile(player.getUniqueId());
-        if (profile.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+        if (profile.getRank().isAboveOrEqual(Rank.TMOD)) {
             for (Player p : Bukkit.getOnlinePlayers()) {
                 Profile profile2 = new Profile(p.getUniqueId());
-                if (profile2.getRank().isAboveOrEqual(Rank.TRAINEE)) {
+                if (profile2.getRank().isAboveOrEqual(Rank.TMOD)) {
                     p.sendMessage(CC.AQUA + "[S] " + profile.getRank().getColor() + player.getName() + CC.D_AQUA + " disconnected from the NA-Practice.");
                 }
             }
@@ -51,10 +51,10 @@ public class PlayerEvents implements Listener {
         final Player p = event.getPlayer ();
         final Profile profile = new Profile ( p.getUniqueId () );
         if (MuteChatCommand.muteToggled) {
-            if (!profile.getRank ().isAboveOrEqual ( Rank.TRAINEE )) {
+            if (!profile.getRank ().isAboveOrEqual ( Rank.TMOD )) {
                 event.setCancelled ( true );
                 p.sendMessage ( ChatColor.translateAlternateColorCodes ( '&' , "&cChat is currently muted." ) );
-            } else if (!profile.getRank ().isAboveOrEqual ( Rank.TRAINEE )) {
+            } else if (!profile.getRank ().isAboveOrEqual ( Rank.TMOD )) {
                 event.setCancelled ( false );
             } else if (MuteChatCommand.muteToggled) {
             }
@@ -67,7 +67,7 @@ public class PlayerEvents implements Listener {
         if (StaffChatHandler.isStaffChat(player)) {
             event.setCancelled(true);
             for (final Player online : Bukkit.getServer().getOnlinePlayers()) {
-                if (new Profile (online.getUniqueId()).getRank().isAboveOrEqual(Rank.TRAINEE)) {
+                if (new Profile (online.getUniqueId()).getRank().isAboveOrEqual(Rank.TMOD)) {
                     online.sendMessage(CC.AQUA + "[S] " + new Profile (player.getUniqueId()).getRank().getColor() + player.getName() + CC.WHITE + ": " + CC.WHITE + event.getMessage());
                 }
             }
@@ -79,7 +79,7 @@ public class PlayerEvents implements Listener {
         if (AdminChatHandler.isAdminChat(player)) {
             event.setCancelled(true);
             for (final Player online : Bukkit.getServer().getOnlinePlayers()) {
-                if (new Profile (online.getUniqueId()).getRank().isAboveOrEqual(Rank.TRAINEE)) {
+                if (new Profile (online.getUniqueId()).getRank().isAboveOrEqual(Rank.TMOD)) {
                     online.sendMessage(CC.RED + "[A] " + new Profile (player.getUniqueId()).getRank().getColor() + player.getName() + CC.WHITE + ": " + CC.WHITE + event.getMessage());
                 }
             }

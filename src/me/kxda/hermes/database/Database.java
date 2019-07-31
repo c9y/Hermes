@@ -18,7 +18,7 @@ public class Database {
                 return;
             }
             Class.forName("com.mysql.jdbc.Driver");
-            Database.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/core", "root", "kW4MgwdQ3C7^");
+            Database.connection = DriverManager.getConnection("jdbc:mysql://192.99.144.225:3306/core", "root", "kW4MgwdQ3C7^");
             Bukkit.getLogger().info("[Onu] Database has been connected");
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();

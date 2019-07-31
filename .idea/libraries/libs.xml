@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/libs/PaperSpigot-1.8.8-R0.1-SNAPSHOT-latest (1).jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Lombok.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/Vault.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ProtocolLib (1).jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lombok.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

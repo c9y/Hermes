@@ -21,17 +21,17 @@ public class MuteChatCommand implements CommandExecutor {
     public boolean onCommand(final CommandSender sender , final Command cmd , final String label , final String[] args) {
         final Player player = ( Player ) sender;
         final Profile profile = new Profile ( player.getUniqueId () );
-        if (!profile.getRank ().isAboveOrEqual ( Rank.TRAINEE )) {
+        if (!profile.getRank ().isAboveOrEqual ( Rank.TMOD )) {
             Messager.sendMessage ( sender , CC.RED + "You don't have permission to use this command." );
             return true;
         }
         final Player p = (Player)sender;
         if (!cmd.getName ().equalsIgnoreCase ( "mutechat" ) || args.length != 0 || cmd.getName ().equalsIgnoreCase ( "mutechat" )) {
         }
-        if (!MuteChatCommand.muteToggled && profile.getRank ().isAboveOrEqual ( Rank.TRAINEE)) {
+        if (!MuteChatCommand.muteToggled && profile.getRank ().isAboveOrEqual ( Rank.TMOD)) {
             MuteChatCommand.muteToggled = true;
             Bukkit.broadcastMessage ( ChatColor.RED + "Chat was muted by " + player.getName () + "." );
-        } else if (MuteChatCommand.muteToggled && profile.getRank ().isAboveOrEqual ( Rank.TRAINEE)) {
+        } else if (MuteChatCommand.muteToggled && profile.getRank ().isAboveOrEqual ( Rank.TMOD)) {
             MuteChatCommand.muteToggled = false;
             Bukkit.broadcastMessage ( ChatColor.GREEN + "Chat was unmuted by " + player.getName () + "." );
         }

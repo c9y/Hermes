@@ -13,16 +13,16 @@ public enum Rank {
     HERO(CC.GRAY + "[" + CC.D_AQUA + "H\u2721" + CC.GRAY + "] ", CC.AQUA, "Hero"),
     BUILDER(CC.D_GREEN, "Builder"),
     YOUTUBE(CC.GOLD, "Media"),
-    FAMOUS(CC.GREEN,"Famous"),
+    FAMOUS(CC.GOLD + CC.ITALIC,"Famous"),
     PARTNER(CC.LIGHT_PURPLE + CC.ITALIC,"Partner"),
-    TRAINEE(CC.YELLOW, "Trainee"),
+    TMOD(CC.YELLOW, "T-Mod"),
     MOD(CC.D_AQUA , "Moderator"),
-    SENIORMOD(CC.D_AQUA + CC.ITALIC, "SeniorMod"),
+    SRMOD(CC.D_AQUA + CC.ITALIC, "Sr-Mod"),
     ADMIN(CC.DARK_RED, "Admin"),
     PLATADMIN(CC.DARK_RED + CC.ITALIC ,"Plat-Admin"),
-    MANAGER(CC.DARK_PURPLE, "Manager"),
+    MANAGER(CC.GOLD, "Manager"),
     DEVELOPER(CC.AQUA + CC.ITALIC , "Developer"),
-    OWNER(CC.BLUE, "Owner");
+    OWNER(CC.DARK_PURPLE, "Owner");
 
     public static final Rank[] RANKS;
     private final String prefix;
@@ -65,7 +65,7 @@ public enum Rank {
     }
 
     public boolean isStaff() {
-        return this.ordinal() >= Rank.TRAINEE.ordinal();
+        return this.ordinal() >= Rank.TMOD.ordinal();
     }
 
     public String getPrefix() {
@@ -119,13 +119,13 @@ public enum Rank {
             rank = Rank.PARTNER;
         }
         else if (i == 9) {
-            rank = Rank.TRAINEE;
+            rank = Rank.TMOD;
         }
         else if (i == 10) {
             rank = Rank.MOD;
         }
         else if (i == 11) {
-            rank = Rank.SENIORMOD;
+            rank = Rank.SRMOD;
         }
         else if (i == 11) {
             rank = Rank.ADMIN;

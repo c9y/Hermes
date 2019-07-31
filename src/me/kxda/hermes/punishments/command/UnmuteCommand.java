@@ -55,7 +55,7 @@ import java.util.Arrays;
         }
         final Player player = (Player)sender;
         final Profile profile = new Profile(player.getUniqueId ());
-        if (!profile.getRank ().isAboveOrEqual (Rank.TRAINEE)) {
+        if (!profile.getRank ().isAboveOrEqual (Rank.TMOD)) {
             Messager.sendMessage(sender, CC.RED + "You don't have permission to use this command." );
             return true;
         }
