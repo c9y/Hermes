@@ -1,6 +1,6 @@
 name: Hermes
 version: 1
-main: me.kxda.hermes.Hermes
+main: cc.zeala.hermes.Hermes
 author: kxda, Palistine
 commands:
   setrank:
@@ -17,7 +17,7 @@ commands:
   heal:
   ranks:
   blacklist:
-    aliases: [leftbooblisted, bl, zacklacey]
+    aliases: [leftbooblisted, bl,]
   unblacklist:
     aliases: [unbl]
   shutdown:
@@ -46,7 +46,10 @@ commands:
       aliases: [core, kxdaisdaddy]
   rail:
   gms:
+    aliases: [survival]
   gmc:
+    aliases: [creative]
   gma:
+    aliases: [adventure]
   teleport:
       aliases: [tp]

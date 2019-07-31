@@ -7,19 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9229b0f-1b12-4760-a9c1-ed9105d63912" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Hermes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Hermes_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/KillCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hermes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hermes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hermes/META-INF/Hermes.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hermes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hermes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hermes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Hermes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Hermes_jar/Hermes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/test.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/Hermes.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/commands/admin/AdminChatCommand.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/commands/admin/AdventureCommand.class" beforeDir="false" />
@@ -135,23 +129,234 @@
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/utils/finalutil/UUIDUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/utils/ttl/TtlArrayList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hermes/me/kxda/hermes/utils/ttl/TtlHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/RanksCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/RanksCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/FreezeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/FreezeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/MuteChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/MuteChatCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/StaffChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/StaffChatCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/profile/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/HistoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/HistoryCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/MuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/MuteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempBanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempBanCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempMuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempMuteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnmuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnmuteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ReflectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ReflectionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hermes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hermes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/Onu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/Profile/Profile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/Profile/ProfileListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/Profile/ProfileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/BroadcastCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/ClearChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/ClearCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/DiscordCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/EatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/FreezeCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/HealCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/MaintenanceCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/MessageCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/MuteChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/PingCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/RanksCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/ReplyCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/ReportCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/SetRankCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/ShutdownCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/SlowChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/StaffChatCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/TPMCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/commands/TeamSpeakCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/database/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/manager/PlayerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/PunishmentManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/PunishmentManager$Punishment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/PunishmentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/PunishmentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/BanCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/BlacklistCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/HistoryCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/KickCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/MuteCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/TempBanCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/TempMuteCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/UnbanCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/command/UnmuteCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/punishments/listener/PunishmentListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/ranks/Rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/ranks/RankManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/StaffChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Listener/ListenerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Listener/listeners/EntityListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Listener/listeners/InventoryListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Listener/listeners/InventoryListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Listener/listeners/PlayerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/ManagerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/managers/FrozenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/managers/InventoryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/staff/freeze/managers/PlayerSnapshotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/Tab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/TabIcon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/TabManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/abstraction/EntityPlayerVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/abstraction/EntityPlayerWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/packet/PacketBasedVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/packet/PacketUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/BlankTabRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/DynamicRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/DynamicTabRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/StandardRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/StaticTabRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/settings/TabRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/tab/util/TabUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/task/NMCAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/task/ShutdownTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/CC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/ColorText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/CommandUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/DateTimeFormats$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/DateTimeFormats$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/DateTimeFormats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/Duration$IntegerCountdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/Duration$LongCountdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/Duration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/EnumUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/ItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/Messager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/PlayerSnapshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/ReflectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/TranslateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/TypeCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/BaseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/CommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/CommandUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/BooleanTypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/DoubleTypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/IntegerTypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/PlayerTypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/StringTypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/adapter/TypeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/CommandInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/Default.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/OptionalParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/ParameterType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/Single.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/sender/ConsoleOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/command/annotation/sender/PlayerOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/event/BaseEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/event/CancellableEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/event/CommandArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/event/PlayerEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/event/PreShutdownEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/Clickable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/ItemUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/PlayerEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/PlayerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/UUIDUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/UUIDUtil$AsyncUUIDFetcher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/UUIDUtil$AsyncUUIDFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/finalutil/UUIDUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/ttl/TtlArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/pw/palistine/onu/utils/ttl/TtlHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Onu/us/blockgame/practice/util/PrimitiveUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/Hermes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/Hermes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/AdminChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/AdminChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/AdventureCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/AdventureCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/BroadcastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/BroadcastCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/CreativeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/CreativeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/EatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/EatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/HealCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/HealCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/KillCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/MaintenanceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/MaintenanceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/RanksCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/RanksCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/SetRankCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/ShutdownCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/ShutdownCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SurvivalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/SurvivalCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/TeleportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/TeleportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/DiscordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/DiscordCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/HermesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/HermesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/MessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/MessageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/ReplyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/ReplyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/ReportCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/ReportCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/TPMCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/TPMCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/TeamSpeakCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/TeamSpeakCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/player/TimeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/player/TimeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/ClearChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/ClearChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/ClearCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/ClearCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/FreezeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/FreezeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/MuteChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/MuteChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/SlowChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/SlowChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/StaffChatCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/commands/staff/StaffChatCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/commands/staff/VanishCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/manager/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/manager/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/profile/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/profile/ProfileListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/profile/ProfileListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/profile/ProfileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/profile/ProfileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/PunishmentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/PunishmentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/PunishmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/PunishmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/BanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/BanCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/BlacklistCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/BlacklistCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/HistoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/HistoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/KickCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/KickCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/MuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/MuteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempBanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/TempBanCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/TempMuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/TempMuteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnbanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/UnbanCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnblacklistCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/UnblacklistCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnmuteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/command/UnmuteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/punishments/listener/PunishmentListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/punishments/listener/PunishmentListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/ranks/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/ranks/RankManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/ranks/RankManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/AdminChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/AdminChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/StaffChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/StaffChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/Listener/ListenerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/Listener/ListenerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/Listener/listeners/EntityListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/Listener/listeners/EntityListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/Listener/listeners/InventoryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/Listener/listeners/InventoryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/Listener/listeners/PlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/Listener/listeners/PlayerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/ManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/ManagerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/managers/FrozenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/managers/FrozenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/managers/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/managers/InventoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/staff/freeze/managers/PlayerSnapshotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/staff/freeze/managers/PlayerSnapshotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/task/NMCAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/task/NMCAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/task/ShutdownTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/task/ShutdownTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/CC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/CC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ColorText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/ColorText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/CommandUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/CommandUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/DateTimeFormats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/DateTimeFormats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/Duration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/Duration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/EnumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/EnumUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/Messager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/Messager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/PlayerSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/PlayerSnapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/PrimitiveUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/PrimitiveUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ReflectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/ReflectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/TranslateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/TranslateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/TypeCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/TypeCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/VanishListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/VanishListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/CommandUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/BooleanTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/BooleanTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/DoubleTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/DoubleTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/IntegerTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/IntegerTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/PlayerTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/PlayerTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/StringTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/StringTypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/adapter/TypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/adapter/TypeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/CommandInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/CommandInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/Default.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/OptionalParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/OptionalParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/ParameterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/ParameterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/Single.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/sender/ConsoleOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/sender/ConsoleOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/command/annotation/sender/PlayerOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/annotation/sender/PlayerOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/event/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/event/BaseEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/event/CancellableEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/event/CancellableEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/event/CommandArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/event/CommandArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/event/PlayerEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/event/PlayerEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/event/PreShutdownEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/event/PreShutdownEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/Clickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/Clickable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/ItemUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/ItemUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/PlayerEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/PlayerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/TimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/TimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/finalutil/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/finalutil/UUIDUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ttl/TtlArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/ttl/TtlArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/kxda/hermes/utils/ttl/TtlHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc/zeala/hermes/utils/ttl/TtlHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,29 +370,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/manager/PlayerManager.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="18">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/ranks/Rank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="336">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/utils/ReflectionUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/utils/CommandUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,33 +400,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1727">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="e#2274#2275#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/Hermes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1426">
-              <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/RanksCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="13">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -238,9 +421,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>srmod</find>
+      <find>vanish</find>
+      <find>me.kxda</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\dakota\Documents\GitHub\Hermes\src</dir>
+      <dir>C:\Users\dakota\Documents\GitHub\Hermes\src\cc\zeala\hermes</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -265,10 +451,18 @@
         <option value="$PROJECT_DIR$/src/me/kxda/hermes/punishments/command/UnmuteCommand.java" />
         <option value="$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java" />
         <option value="$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java" />
+        <option value="$PROJECT_DIR$/src/me/kxda/hermes/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/me/kxda/hermes/Hermes.java" />
+        <option value="$PROJECT_DIR$/src/me/kxda/hermes/utils/VanishListener.java" />
+        <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/cc/zeala/hermes/Hermes.java" />
+        <option value="$PROJECT_DIR$/src/cc/zeala/hermes/utils/CommandUtil.java" />
+        <option value="$PROJECT_DIR$/src/cc/zeala/hermes/ranks/Rank.java" />
+        <option value="$PROJECT_DIR$/src/cc/zeala/hermes/database/Database.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="27" />
     <option name="width" value="1932" />
@@ -318,38 +512,21 @@
               <item name="Hermes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hermes" type="462c0819:PsiDirectoryNode" />
               <item name="ranks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hermes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hermes" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="ttl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,12 +569,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564514636098</updated>
       <workItem from="1564514637805" duration="2388000" />
-      <workItem from="1564584557469" duration="1474000" />
+      <workItem from="1564584557469" duration="5756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3862000" />
+    <option name="totallyTimeSpent" value="8144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +596,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295583" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -447,52 +624,89 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/manager/PlayerManager.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/manager/PlayerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/utils/command/CommandHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/utils/command/CommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/utils/ReflectionUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/utils/ReflectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/SetRankCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/SetRankCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1426">
           <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/commands/admin/RanksCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/commands/admin/RanksCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kxda/hermes/ranks/Rank.java">
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/utils/VanishListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1727">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/Hermes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/utils/CommandUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#2274#2275#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/ranks/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/zeala/hermes/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>

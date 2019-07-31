@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
 Class-Path: me.kxda.hermes
-Main-Class: me.kxda.hermes.Hermes
+Main-Class: cc.zeala.hermes.Hermes
 
