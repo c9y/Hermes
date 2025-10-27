@@ -1,1 +1,1 @@
-first core I made that i skidded & edited a minecraft server core for PhantomHQ & OrtixPvP
+first core I made that i skidded & edited a minecraft server core for Zeala.cc UHC & OrtixPvP
